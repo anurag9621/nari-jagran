@@ -1,13 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Kadwa&family=Kalam:wght@300&family=Karma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
+html {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
 body {
+  max-width: 1550px;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+Link {
+  cursor: pointer;
+}
+.toggle_btn {
+  cursor: pointer;
+}
+hr{
+  border: .3px solid gray;
+}
+a{
+  color: black;
+}
+a:link {
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+a {
+  color: #000000;
 }
