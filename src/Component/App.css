@@ -404,7 +404,7 @@ li:hover {
 }
 header.sticky {
   background-color: white;
-  top: 0px;
+  top: 10px;
   align-items: center;
   margin-top: 0;
   box-shadow: 0 0 5px 0 black;
@@ -431,9 +431,9 @@ header.sticky .topo {
   flex-direction: column;
 }
 .toggle_btn span {
-  width: 1.2rem;
-  height: 0.1rem;
-  margin: 3px 0;
+  width: 1.6rem;
+  height: 0.2rem;
+  margin: 2px 0;
   background-color: #000000;
   cursor: pointer;
 }
@@ -796,4 +796,117 @@ nav ul li ul {
   .box-rightlast{
     width: 100%;
   }
+}
+
+/*==================================
+===NEWS NEWS NEWS =================*/
+.news_box_2_start1{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left_news_1box{
+  width: 70%;
+}
+.box-101{
+width: 100%;
+}
+.box-101 ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.box-101 ul li{
+  width: 45%;
+}
+.box-101 ul li img{
+  width: 100%;
+}
+.box-102 {
+  width: 100%;
+}
+.box-102 ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-102 ul li{
+  padding: 0 30px;
+}
+.box-103{
+  width: 100%;
+  padding: 20px;
+}
+.box-103 ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box-103 ul li{
+  width: 40%;
+}
+.box-103 ul li img{
+  width: 100%;
+}
+.box-104{
+  width: 100%;
+}
+.box-104 ul{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box-104 ul li{
+  width: 45%;
+  margin-top: 20px;
+  padding: 0 10px;
+  border-right: .5px solid;
+}
+.box-105 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-105 ul {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.animate-101 {
+  width: 100%;
+  animation: animate 10s ease-in-out infinite;
+  background-size: cover;
+  height: 460px;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes animate {
+  0%,
+  100% {
+    background-image: url(../Pages/Image/back00.jpg);
+  }
+
+  75% {
+    background-image: url(../Pages/Image/back001.jpg);
+  }
+}
+.right_news_1box{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 25%;
+}
+.right_news_1box ul{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.right_news_1box ul li img{
+  width: 100%;
 }
