@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from "../../../../Image/logo.jpeg"
+import Logo from "../../../../Image/logo2.png"
 // TIME CODE TIME CODE
 const a = new Date();
 const options = {
