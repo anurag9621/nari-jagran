@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kadwa&family=Kalam:wght@300&family=Karma&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
 html {
   width: 100%;
   display: flex;
@@ -51,4 +52,8 @@ a:active {
 }
 a {
   color: #000000;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 100;
 }

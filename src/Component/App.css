@@ -179,7 +179,7 @@ nav ul ul li a {
   padding-top: 50px;
 }
 .endbox ul a h3 {
-  font-family: "Cinzel", serif;
+  font-family: 'Abril Fatface', cursive;
   margin-bottom: 10px;
   font-size: 1.1em;
   font-weight: 600;
@@ -518,7 +518,7 @@ nav ul li ul {
   display: block;
   width: 100%;
   border-left: 3px solid transparent;
-  font-family: "Cinzel", serif;
+  font-family: 'Cabin', sans-serif;
   transition: 0.2s;
 }
 .sidebar-on ul li a:hover {
@@ -652,7 +652,7 @@ nav ul li ul {
 }
 
 .welcome ul li h1 {
-  font-family: "Cinzel", serif;
+  font-family: 'Cabin', sans-serif;
   font-weight: 100;
 }
 .container {
@@ -704,7 +704,7 @@ nav ul li ul {
   flex-direction: row-reverse;
 }
 .start00 ul li a h1 {
-  font-family: "Cinzel", serif;
+  font-family: 'Cabin', sans-serif;
   line-height: 2.2rem;
 }
 .start00 ul li {
@@ -909,4 +909,54 @@ width: 100%;
 }
 .right_news_1box ul li img{
   width: 100%;
+}
+/*=================================
+====  ARTICLE ARTICLE ============*/
+.page-common-article{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top:200px ;
+}
+.article-right-side{
+  width: 20%;
+}
+.article-center-side{
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+.article-center-side ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.article-center-side ul li {
+  padding: 20px 0 ;
+  text-align: center;
+
+}
+.article-center-side ul li p {
+  font-size: 1.2rem;
+  padding: 0 20px;
+  text-align: center;
+
+}
+@media screen and (max-width:1100px){
+  .article-right-side{
+    display: none;
+  }
+.page-common-article{
+margin-top: 50px;
+}
+}
+/*==============================
+========Herright================*/
+.herright_secand_lading-page-top{
+margin-top: 200px;
 }

@@ -48,7 +48,7 @@ const menux = (props) => {
             <Link to="/">About us</Link>
           </li>
           <li>
-            <Link to="/">Contact Us</Link>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </header>
