@@ -1,50 +1,20 @@
 import React from "react";
 import Bookself from "../../../../Image/unnamed.jpg";
+import BoxA from "../../../Layout/Boxs/common-boc-1";
 const CommonArticle = (props) => {
   return (
     <>
       <div className="page-common-article">
         <div className="article-right-side">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is another card with title and supporting text below. This
-                card has some additional content to make it slightly taller
-                overall.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is another card with title and supporting text below. This
-                card has some additional content to make it slightly taller
-                overall.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is another card with title and supporting text below. This
-                card has some additional content to make it slightly taller
-                overall.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is another card with title and supporting text below. This
-                card has some additional content to make it slightly taller
-                overall.
-              </p>
-            </div>
-          </div>
+          <BoxA
+            link="/page"
+            heading="anurag"
+            contant="anurag pandeuy jo jo jo jo"
+
+          />
+          <BoxA />
+          <BoxA />
+          <BoxA />
         </div>
         <div className="article-center-side">
           <ul>
